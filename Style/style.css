@@ -1,0 +1,435 @@
+
+header{
+    background-color: bisque;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+
+.Head-2 {
+    /* text-decoration: none; */
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;  */
+    gap: 25px;
+
+    color: lightgray;
+    font-size: 1em;
+    font-family: Work Sans;
+}
+.Head-2 a{
+    text-decoration: none;
+
+}
+.Head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Head-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-size: 2.8em;
+    font-family: Work Sans;
+}
+
+
+.banner{
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /* gap: 5px; */
+   /* text-align: center; */
+  
+}
+.banner img{
+    width: 100%;
+    padding-bottom: 30px;
+}
+.bi{
+    color: #000000;
+    font-size: 3em;
+    font-family: Work Sans;
+}
+.bii{
+    color: gray;
+    font-size: 1em;
+    font-family: Work Sans;
+    margin-top: -35px;
+}
+.btn{
+    width: 180px;
+    height: 58px;
+    border-radius: 8px;
+  border: none;
+  background: rgb(255, 144, 14);
+  margin-bottom: 8px;
+}
+
+main{
+    max-width: 1440px;
+    margin-top: 40px;
+}
+
+.A{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.p{
+    padding-left: 80px;
+    gap: 10px;
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+}
+.p img{
+  width: 280px;
+  height: 250px;
+  border: 2px dashed lightgrey;
+ border-radius: 8px;
+}
+.t{
+    color: lightgray;
+    font-family: Work Sans;
+font-size: 45px;
+}
+.y{
+    color: lightgray;
+    font-family: Work Sans;
+   font-size: 18px;
+   margin-top: -28px;
+}
+.or{
+    color: #000000;
+}
+.black{
+    color: rgb(255, 144, 14);
+}
+.Q{
+    margin-left: 50px;
+}
+
+.self-section{
+    margin-top: 100px;
+}
+.self{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: px; */
+/* height: 982px; */
+/* border: 2px solid black; */
+border-radius: 8px;
+/* background-color: aliceblue; */
+}
+
+.self-i{
+display: grid;
+grid-template-columns: repeat(1,1fr);
+border-radius: 8px;
+ /* background-color: aliceblue;  */
+gap: 15px;
+justify-content: space-between;
+padding: 30px;
+}
+.pi{
+    background: #F5F5F5;
+    border-radius: 8px;
+    padding-left: 15px;
+}
+.kl{
+    border: 2px dashed lightgrey;
+}
+.pi-title{
+    color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 40px;
+}
+.pi-description{
+    color: lightgray;
+    font-family: Work Sans;
+    font-size: 18px;
+}
+.ti{
+    font-size: 30px;
+}
+ .btt{
+  /* color: rgb(255, 255, 255);; */
+} 
+.h{
+    position: relative;
+}
+.h button{
+    margin-top: -72px;
+    margin-bottom: -150px;
+    position: absolute ;
+    margin-left: 8px;
+    color: rgb(255, 255, 255);
+    width: 160px;
+    height: 80px;
+}
+.o{
+    font-size: 28px;
+    color: rgb(255, 255, 255);  
+}
+ .l image{
+    border: 2px dashed lightgray;
+    width: 708px;
+    height: 982px;
+}
+.jk{
+    color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 28px;
+}
+.jkl{
+    color: lightgray;
+    font-family: Work Sans;
+    font-size: 16px;
+}
+.ghjk{
+    /* width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+    align-items:left ;
+   flex-direction: column; */
+  
+}
+
+.nm{
+    margin-left: 30px;
+}
+section{
+    max-width: 1440px;
+}
+
+.card{
+    border: 2px solid orange;
+    width: 200px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.papa-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: 25px;
+}
+
+
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px; 
+    margin-top: 15px;
+    width: 1440px;
+}
+.c{
+    border: 2px dashed lightgray;
+}
+.fo{
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+    margin-top: 25px;
+    border-radius: 8px;
+   background: rgb(255, 244, 231);
+   margin-left: 3px;
+}
+
+@media screen  and (max-width:576px){
+    .Head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: center;
+        gap: 8px;
+    }
+    .Head-1{
+        font-size: 24px;
+    }
+    .A{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .p{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .self{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .self-i{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .h{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column; 
+        margin-left: 16px;
+      
+    }
+     .h img{
+        width: 100%;
+        /* margin-left: 6px; */
+    } 
+    /* .h button{
+
+    } */
+
+    .nm{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column; 
+        text-align: center;
+    }
+    .papa-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column; 
+    }
+    .last{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column; 
+        text-align: center; 
+    }
+    .picture{
+         display: grid;
+        grid-template-columns: repeat(1,1fr); 
+        justify-items: center;
+        align-items: center;
+      gap: 12px;
+      width: 100%;
+      
+    }
+    .fo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      width: 100%;
+    }
+    
+}
+
+@media screen  and (min-width:577px) and (max-width:992px){
+    .Head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: center;
+        gap: 15px;
+    }
+    .Head-1{
+        font-size: 30px;
+        
+    }
+    .A{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+     .p{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    } 
+    .self{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .self-i{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .h{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         flex-direction:column;  
+        margin-left: 16px;
+      
+    }
+    .h img{
+        width: 100%;
+        /* margin-left: 6px; */
+    }
+    .nm{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column; 
+        text-align: center;
+    }
+    .papa-card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: 8px;
+    }
+    .last{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column; 
+        text-align: center; 
+    }
+    .picture{
+        display: grid;
+       grid-template-columns: repeat(2,1fr); 
+       justify-items: center;
+       align-items: center;
+     gap: 12px;
+     width: 100%;
+     
+   }
+   .fo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 100%;
+}
+}
