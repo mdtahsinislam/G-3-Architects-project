@@ -269,14 +269,19 @@ section{
 @media screen  and (max-width:576px){
     .Head{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         flex-direction: center;
-        gap: 8px;
+        gap: 5px;
+        /* margin: 0 auto; */
     }
     .Head-1{
-        font-size: 24px;
-    }
+        font-size: 1rem;
+        padding-left: .8rem; 
+    } 
+     .Head-2{
+        padding-right: .8rem; 
+     }
     .A{
         display: flex;
         justify-content: center;
@@ -360,15 +365,19 @@ section{
 @media screen  and (min-width:577px) and (max-width:992px){
     .Head{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         flex-direction: center;
         gap: 15px;
     }
     .Head-1{
-        font-size: 30px;
-        
+        font-size: 1.9rem;
+        padding-left: .7rem; 
     }
+
+    .Head-2{
+        padding-right: .4rem; 
+     }
     .A{
         display: flex;
         justify-content: center;
@@ -414,12 +423,14 @@ section{
         justify-content: center;
         align-items: center;
         /* width: 100%; */
-
+        margin: 0px auto;
        
     
     }
      .card{
         width: 100%;
+        margin-left: 1rem;
+        margin-right: 1rem;
     } 
     .last{
         display: flex;
