@@ -277,12 +277,13 @@ section{
         margin: 0 auto; 
     }
     .Head-1{
-        font-size: 0.5rem;
+        font-size: 0.2rem;
         padding-left: .8rem; 
     } 
      .Head-2{
         padding-right: .8rem; 
         font-size: 0.5rem;
+        padding-left: -.9rem;
      }
     .A{
         display: flex;
@@ -367,10 +368,10 @@ section{
 @media screen  and (min-width:577px) and (max-width:992px){
     .Head{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         flex-direction: center;
-        gap: 15px;
+        gap: 1rem;
     }
     .Head-1{
         font-size: 1.9rem;
