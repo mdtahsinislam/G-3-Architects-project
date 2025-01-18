@@ -268,12 +268,13 @@ section{
 
 @media screen  and (max-width:576px){
     .Head{
+        width: 100%;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: center;
-        gap: 5px;
-        /* margin: 0 auto; */
+        justify-content: center;
+         align-items: center; 
+     flex-direction: center; 
+         gap: 5px; 
+        margin: 0 auto; 
     }
     .Head-1{
         font-size: 1rem;
